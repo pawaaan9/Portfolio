@@ -26,6 +26,7 @@ export function MySkills() {
 
       {/* Foreground content (IconCloud) */}
       <div className="relative z-10 ">
+        <hr></hr>
         <IconCloud iconSlugs={slugs} />
       </div>
     </div>
