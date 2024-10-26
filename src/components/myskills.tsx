@@ -25,7 +25,7 @@ export function MySkills() {
       </div>
 
       {/* Heading */}
-      <h1 className="relative z-10 mb-8 text-3xl font-bold underline">Tech Stack</h1>
+      <h1 className="relative z-10 mb-8 text-3xl font-semibold underline">Tech Stack</h1>
 
       {/* Foreground content (IconCloud) */}
       <div className="relative z-10">
