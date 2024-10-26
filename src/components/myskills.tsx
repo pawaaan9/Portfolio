@@ -9,7 +9,8 @@ const slugs = [
 
 export function MySkills() {
   return (
-    <div className="relative h-screen flex items-center justify-center bg-custom-blue text-[#D3D8F4] overflow-hidden">
+    <div className="relative h-screen flex flex-col items-center justify-center bg-custom-blue text-[#D3D8F4] overflow-hidden">
+      
       {/* SparklesCore as background */}
       <div className="absolute inset-0 z-0">
         <SparklesCore
@@ -20,12 +21,14 @@ export function MySkills() {
           particleDensity={100}
           className="w-full h-full"
           particleColor="#D3D8F4"
-          
         />
       </div>
 
+      {/* Heading */}
+      <h1 className="relative z-10 mb-8 text-3xl font-bold">Tech Stack</h1>
+
       {/* Foreground content (IconCloud) */}
-      <div className="relative z-10 ">
+      <div className="relative z-10">
         <IconCloud iconSlugs={slugs} />
       </div>
     </div>
