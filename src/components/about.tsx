@@ -1,11 +1,10 @@
 // components/About.tsx
-import React from 'react';
-import { SparklesCore } from "@/components/ui/sparkles"; // Adjust the import path based on your setup
+import React from "react";
+import { SparklesCore } from "@/components/ui/sparkles";
 
 const About: React.FC = () => {
   return (
     <div className="relative h-screen flex items-center justify-center bg-custom-blue text-white overflow-hidden">
-      
       {/* SparklesCore as background */}
       <div className="absolute inset-0 z-0">
         <SparklesCore
@@ -27,8 +26,9 @@ const About: React.FC = () => {
 
         {/* Content */}
         <p className="text-base md:text-lg text-[#D3D8F4] fade-in">
-          Welcome to my portfolio! Explore my work, skills, and projects, 
-          showcasing my passion and expertise in Software Development. Let's connect and create something great together!
+          Welcome to my portfolio! Explore my work, skills, and projects,
+          showcasing my passion and expertise in Software Development.
+          Let&apos;s connect and create something great together!
         </p>
       </div>
     </div>

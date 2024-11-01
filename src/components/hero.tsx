@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
 
           {/* Let's Talk Button */}
           <Link href="#contact">
-            <ShinyButton className="ml-1">Let's Talk</ShinyButton>
+            <ShinyButton className="ml-1">Let&apos;s Talk</ShinyButton>
           </Link>
 
           {/* Social Media Links and Check Out My Text */}
