@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 import { FlipWords } from "../components/ui/flip-words";
 import Image from "next/image";
 import instagram from "../../assets/instagram.png";
@@ -55,12 +56,14 @@ const Hero: React.FC = () => {
           </span>
 
           {/* Let's Talk Button */}
-          <ShinyButton className="ml-1">Let's Talk</ShinyButton>
+          <Link href="#contact">
+            <ShinyButton className="ml-1">Let's Talk</ShinyButton>
+          </Link>
 
-          {/* Social Media Links Button Set */}
-          <div className="flex flex-col items-center space-y-3">
-            <p className="text-lg font-bold ml-1">Check Out My</p>
-
+          {/* Social Media Links and Check Out My Text */}
+          <div className="flex items-center space-x-4">
+            <p className="text-lg font-bold">Check Out My</p>
+            
             <div className="flex space-x-4 bg-[#1a1a2e] px-5 py-3 rounded-full shadow-lg">
               {/* GitHub */}
               <a
