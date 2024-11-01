@@ -80,7 +80,7 @@ export default function IconCloud({ iconSlugs }: DynamicCloudProps) {
   }, [data, theme]);
 
   return (
-    // @ts-expect-error
+    // @ts-expect-error: cloudProps contains properties not defined in Cloud's type
     <Cloud {...cloudProps}>
       <>{renderedIcons}</>
     </Cloud>
