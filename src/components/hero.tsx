@@ -16,7 +16,7 @@ const words = ["FULLSTACK DEVELOPER", "UNDERGRADUATE"];
 
 const Hero: React.FC = () => {
   return (
-    <div className="relative h-screen flex items-center justify-center bg-custom-blue text-[#D3D8F4] overflow-hidden">
+    <div className="relative min-h-[100vh] flex items-center justify-center bg-custom-blue text-[#D3D8F4] overflow-hidden">
       {/* SparklesCore as background */}
       <div className="absolute inset-0 z-0">
         <SparklesCore
@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
       </div>
 
       {/* Main Content Container */}
-      <div className="relative z-10 flex flex-col md:flex-row items-center justify-center px-5 md:px-0 space-y-6 md:space-y-8">
+      <div className="relative z-10 flex flex-col md:flex-row items-center justify-center px-5 md:px-0 space-y-6 md:space-y-8 -mt-32">
         {/* Left: Profile Photo */}
         <div className="flex-shrink-0 mb-6 md:mb-0">
           <Image
