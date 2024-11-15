@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
           </div>
 
           <div className="hidden md:flex items-center space-x-5">
-            <a href="#">
+            <a href="#hero">
               <Image src={home} alt="home" width={22} height={22} />
             </a>
             <a
@@ -34,13 +34,13 @@ const Navbar: React.FC = () => {
               About
             </a>
             <a
-              href="#"
+              href="#myskills"
               className="text-[#D3D8F4] hover:underline px-3 py-2 rounded-md text-sm font-medium"
             >
               My Skills
             </a>
             <a
-              href="#"
+              href="#portfolio"
               className="text-[#D3D8F4] hover:underline px-3 py-2 rounded-md text-sm font-medium"
             >
               Portfolio

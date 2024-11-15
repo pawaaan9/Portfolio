@@ -8,7 +8,6 @@ import instagram from "../../assets/instagram.png";
 import facebook from "../../assets/Facebook.png";
 import github from "../../assets/github.png";
 import linkedin from "../../assets/linkedin.png";
-import { SparklesCore } from "@/components/ui/sparkles";
 import myphoto from "../../assets/pawan dhanapala.png";
 import ShinyButton from "../components/ui/shiny-button";
 
@@ -16,19 +15,8 @@ const words = ["FULLSTACK DEVELOPER", "UNDERGRADUATE"];
 
 const Hero: React.FC = () => {
   return (
-    <div className="relative min-h-[100vh] flex items-center justify-center bg-custom-blue text-[#D3D8F4] overflow-hidden">
-      {/* SparklesCore as background */}
-      <div className="absolute inset-0 z-0">
-        <SparklesCore
-          id="tsparticles-hero"
-          background="transparent"
-          minSize={0.6}
-          maxSize={1.4}
-          particleDensity={100}
-          className="w-full h-full"
-          particleColor="#D3D8F4"
-        />
-      </div>
+    <div id='hero' className="relative min-h-[100vh] flex items-center justify-center bg-custom-blue text-[#D3D8F4] overflow-hidden">
+
 
       {/* Main Content Container */}
       <div className="relative z-10 flex flex-col md:flex-row items-center justify-center px-5 md:px-0 space-y-6 md:space-y-8 -mt-32">

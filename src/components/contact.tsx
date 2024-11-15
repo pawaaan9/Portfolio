@@ -1,22 +1,8 @@
 import React from 'react';
-import { SparklesCore } from "@/components/ui/sparkles"; // Adjust the import path based on your setup
 
 const Contact: React.FC = () => {
   return (
     <div id='contact' className="relative h-screen flex items-center justify-center bg-custom-blue text-white overflow-hidden">
-
-      {/* SparklesCore as background */}
-      <div className="absolute inset-0 z-0">
-        <SparklesCore
-          id="tsparticles-contact"
-          background="transparent"
-          minSize={0.6}
-          maxSize={1.4}
-          particleDensity={100}
-          className="w-full h-full"
-          particleColor="#FFFFFF"
-        />
-      </div>
 
       {/* Main Content */}
       <div className="relative z-10 text-center max-w-lg mx-auto">
