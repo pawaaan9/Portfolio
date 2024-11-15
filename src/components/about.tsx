@@ -23,7 +23,7 @@ const About: React.FC = () => {
           third-year IT undergraduate, I thrive on transforming ideas into
           impactful digital solutions. My journey in tech has been fueled by
           curiosity, continuous learning, and hands-on experience across web and
-          mobile development. I'm excited to showcase my skills, projects, and
+          mobile development. I&apos;m excited to showcase my skills, projects, and
           vision for innovation. <br />
           Let&apos;s connect and build something great together!
         </p>
