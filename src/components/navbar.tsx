@@ -102,7 +102,7 @@ const Navbar: React.FC = () => {
         id="mobile-menu"
       >
         <div className="px-4 pt-4 pb-3 space-y-4"> 
-          <a href="#" className="items-center text-[#D3D8F4] hover:underline block px-3 py-2 rounded-md text-base font-medium">
+          <a href="#hero" className="items-center text-[#D3D8F4] hover:underline block px-3 py-2 rounded-md text-base font-medium">
             <Image src={home} alt="home" width={22} height={22} className="mr-2" />
           </a>
           
@@ -118,7 +118,7 @@ const Navbar: React.FC = () => {
           <hr className="border-[#D3D8F4] border-opacity-20 my-2" /> 
           
           <a
-            href="#"
+            href="#myskills"
             className="text-[#D3D8F4] hover:underline block px-3 py-2 rounded-md text-base font-medium"
           >
             My Skills
@@ -127,7 +127,7 @@ const Navbar: React.FC = () => {
           <hr className="border-[#D3D8F4] border-opacity-20 my-2" /> 
           
           <a
-            href="#"
+            href="#portfolio"
             className="text-[#D3D8F4] hover:underline block px-3 py-2 rounded-md text-base font-medium"
           >
             Portfolio
